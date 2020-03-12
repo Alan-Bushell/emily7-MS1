@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Rye|Bungee+Shade&display=swap:200,300,400,500,600,700');
+/* ---------------------------------------------------------------------------------------Nav bar , Links and Logo design */
+li a{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.navbar li{
+    padding-right: 2rem;
+    
+}
+
+.hero-image{
+    height: 400px;
+    width:100%;
+    background-size:cover;
+    background-color: gray;
+    margin-top: 15px;
+}
+/*---------------------------------------------------------- comment out for now
+.hero-image{
+    background-image: url("../img/emily7hero.jpg");
+    width: 100%;
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    margin: 0 auto;
+
+}
+*/
+.carousel-inner img{
+    width: 80%;
+    height: 900px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    left: 10%;
+    padding: 20px 0;
+}
+
+h1 {
+    font-family: "Bungee Shade";
+    font-weight: 500;
+}
+.navbar-brand{
+    font-family:"Rye";
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+h3 {
+font-family:"Rye";
+letter-spacing: 4px;
+font-weight: 400;
+}
