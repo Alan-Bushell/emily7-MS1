@@ -31,16 +31,18 @@ li a{
 
 }
 */
+
+/*------------------------------------------------------------------------------Carousel Image */
 .carousel-inner img{
     width: 80%;
     height: 900px;
-    margin: 0 auto;
+    
     text-align: center;
     position: relative;
     left: 10%;
     padding: 20px 0;
 }
-
+/*------------------------------------------------------------------------------- font styles*/
 h1 {
     font-family: "Bungee Shade";
     font-weight: 500;
@@ -52,8 +54,76 @@ h1 {
     font-size: 25px;
 }
 
-h3 {
+h3, {
 font-family:"Rye";
 letter-spacing: 4px;
 font-weight: 400;
+}
+
+{
+    color: #fafafa;
+}
+
+h4 {
+    color: #fafafa;
+}
+
+/*-------------------------------------------------------------------------------------footer content */
+
+
+/*-------------------------------------------------------------------------------------Social media Icons*/
+.youtube i {
+    color:#c4302b;
+    
+}
+
+.facebook i {
+    color: #3b5998;
+}
+
+.spotify i {
+    color: #1db954;
+}
+
+.twitter i {
+    color: #1da1f2;
+}
+
+.footer-icons li {
+    list-style-type: none;
+    font-size: 40px;
+    width: 100%
+    text-align: center;
+    display: inline;
+}
+.footer-icons i {
+    width: 24%
+}
+
+/*------------------------------------------------------------------------------------------Footer content*/
+footer{
+    background-color: #343a40;
+}
+
+footer h4{
+    text-align: center;
+    font-family: "Rye";
+    padding-top: 10px;
+}
+
+footer .copyright{
+    color: #fafafa;
+    text-align:center;
+    font-family: "Rye";
+    font-size: 10px;
+    padding-bottom: 30px;
+}
+
+.iframe iframe{
+    text-align: center;
+    padding-left: 20%;
+}
+
+.iframe h3{
+    text-align: center;
 }
