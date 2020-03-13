@@ -54,10 +54,10 @@ h1 {
     font-size: 25px;
 }
 
-h3, {
+h3 {
 font-family:"Rye";
 letter-spacing: 4px;
-font-weight: 400;
+font-weight: 500;
 }
 
 {
@@ -127,3 +127,4 @@ footer .copyright{
 .iframe h3{
     text-align: center;
 }
+
