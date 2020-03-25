@@ -17,6 +17,7 @@ li a{
     background-color: gray;
     margin-top: 15px;
 }
+
 /*------------------------------------------------------------------------------Carousel Image */
 .carousel-inner img{
     width: 80%;
@@ -61,6 +62,9 @@ h1.success-h1 , h5.success-h5{
     text-align: center;
     margin-top: 10px;
     margin-bottom:180px;
+}
+h1.about-h1{
+font-size: 80px;
 }
 
 /*-------------------------------------------------------------------------------------footer content */
@@ -111,6 +115,7 @@ form{
 /*------------------------------------------------------------------------------------------Footer content*/
 footer{
     background-color: #343a40;
+   
 }
 
 footer h4{
@@ -179,11 +184,6 @@ footer .copyright{
     margin: 0 auto;
 }
 
-/*h3.venues {
-    color: blue;*/
-
-}
-
 h5.venues-date {
     font-family: "Rye";
 }
@@ -232,9 +232,46 @@ footer .copyright{
     font-family: "Rye";
     font-size: 8px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 22px;
+    margin-bottom:25px;
     
 }
 }
 
+/*---------------------------------------------------------------------------------------------------------------------------- Animations */
 
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 2.000000000000001s ease-out 1s ;
+	        animation: tracking-in-expand 2.000000000000001s ease-out 1s ;           
+}
+
+.text-focus-in{animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in
+{0%{
+    filter:blur(12px);
+    opacity:0}100%{filter:blur(0);opacity:1}}
