@@ -45,22 +45,40 @@ letter-spacing: 4px;
 font-weight: 500;
 }
 
-{
-    color: #fafafa;
-}
-
 h4 {
     color: #fafafa;
+}
+h5{
+    font-family: "Rye";
+}
+
+h1.booking-h1 , h5.booking-h5{
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1.success-h1 , h5.success-h5{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:180px;
 }
 
 /*-------------------------------------------------------------------------------------footer content */
 
 /*-------------------------------------------------------------------------------------Contact Page*/
 .row-contact{
-    height: 300px;
-    border: solid red 2px;
+    height: auto;
+    margin: 30px 0 30px 0;
 }
 
+.contact-form-main{
+    margin: auto;
+    width: 350px;
+}
+
+form{
+    margin-bottom:25px;
+}
 
 /*-------------------------------------------------------------------------------------Social media Icons*/
 .youtube i {
@@ -108,7 +126,7 @@ footer .copyright{
     font-size: 10px;
     padding-bottom: 30px;
 }
-/*-------------------------------------------------------------------------------------------------Parallax image*/
+/*-------------------------------------------------------------------------------------------------Parallax image & about*/
 #parallax-image{
     background-image: url("../img/concert-image.jpg");
     height: 500px;
@@ -161,6 +179,14 @@ footer .copyright{
     margin: 0 auto;
 }
 
+/*h3.venues {
+    color: blue;*/
+
+}
+
+h5.venues-date {
+    font-family: "Rye";
+}
 
 
 /*----------------------------------------------------------------------------------------------------------------------------Media Queries*/
