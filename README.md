@@ -1,9 +1,11 @@
 <h1>Emily 7</h1>
-<p>This website is to showcase up and coming band emily 7. 
-It is a place for their fans to find out about gigs, tickets, check out their gallery and for prospective booking agents to contact them.</p>
+<h2>This website is to showcase up and coming band emily 7. 
+It is a place for their fans to find out about gigs, tickets, check out their gallery and for prospective booking agents to contact them.</h2>
 
 
 <h3>UX</h3>
+
+<p>
 This website was designed to have an indy feel and somewhat rugged design in line with the bands music and image. 
 Currently they only have social media as a way of sharing upcoming gigs and use a third party for selling tickets. 
 The idea is that fans can come to this site to keep updated about the bands current schedule, see photos and to buy tickets. 
@@ -19,43 +21,47 @@ get what they came for.
 
 The Contact us page is a form for potential bookings, sponsership, or general contact. The bands main goal is to attract fans but the best way to do that is by playing gigs. 
 As this site does not have a backend the form at this time does not actually collect data. This is not within the capabilites of CSS/HTML. However as a visual representation of what I would like the user to see,
-once the form is submitted it will take the user to a success page advising them their message has been sent and the band will be in touch.
+once the form is submitted it will take the user to a success page advising them their message has been sent and the band will be in touch.</p>
 
-Users who would have struggled to find tickets for the upcoming band now have a resource they can go to to get tickets, catch up on the bands tracks and in the future more features like news, blog updates etc.
+<h2>User Stories</h2>
+<p>John Doe was struggling to find tickets for the up and coming band now he has a resource that he can go to to get tickets</p>
+
+<p>Jane doe wanted to catch up on the bands tracks and find out more about them. She went on to the about section and it had access to listen to music on the page as well as read up about the band</p>
+
+<p>Joe Doe is a booking agent for a few festivals and gigs around the country and is interested in getting the band in for a few gigs as a support act. Now he can contact them on the contact page.</p>
 
 
-***This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+ 
 
-Features
-<h2>Home Page</h3>
-<h4>Navigation bar with logo to the left of 5 links : Home, about, tickets, gallery, contact. Carousel of 3 images relating to the band with different links and brief css annimation and footer to band socials</h4>
+
+<h2>Wireframes</h2>
+<p>Wireframes created with Balsamiq. Project was developed from initial wireframes however changes were made to the final project outcome. Wireframe located in <i>assets/img/wireframes/Emily7-milestone-wireframe.pdf</i></p>
+
+<h2>Features</h2>
+
+<h3>Home Page</h3>
+<p>Navigation bar with logo to the left of 5 links : Home, about, tickets, gallery, contact. Carousel of 3 images relating to the band with different links and brief css annimation and footer to band socials</p>
 
 <h3>About</h3>
-<h4>Scrolling parallax images with css annimation, images of the band members and lorem ipsum sample text. I-frame linked to spotify account for the band</h4>
+<p>Scrolling parallax images with css annimation, images of the band members and lorem ipsum sample text. I-frame linked to spotify account for the band</p>
 
 <h3>Tickets</h3>
-<h4>External link to ticketmaster.ie to the bands next upcoming gig for buyers to get tickets</h4>
+<p>External link to ticketmaster.ie to the bands next upcoming gig for buyers to get tickets. 
+The main aim of the band will be to sell tickets to their gigs, users can do this easily by clicking tickets on the nav, or else one of the many buttons on the home page.</p>
 
 <h3>Gallery</h3>
-<h4>Centered block i-frame to the bands music video on youtube as the center-peice. Further down some sample images of the band in a gallery format.</h4>
+<p>Centered block i-frame to the bands music video on youtube as the center-peice.These features highlight the bands music and creativity with an i-frame for spotify to their page and another to youtube to one of their music videos. 
+So people wanting to know what the band are about can easily access this information Further down some sample images of the band in a gallery format.</p>
 
 <h3>Contact</h3>
-<h4>Contact form collecting relevant information from prospective partners of the band or people just wanting to get in touch. Once a user completes the form it brings them to a sample success page
+<p>Contact form collecting relevant information from prospective partners of the band or people just wanting to get in touch. Once a user completes the form it brings them to a sample success page
 This is just a visual and no data is actually collected. This would be something that will ideally be funtional in the future.
-</h4>
-
-
-Existing Features
-<h3>Tickets</h3>
-<h4>The main aim of the band will be to sell tickets to their gigs, users can do this easily by clicking tickets on the nav, or else one of the many buttons on the home page.</h4>
-
-<h3>I-frames</h3>
-<h4>These features highlight the bands music and creativity with an i-frame for spotify to their page and another to youtube to one of their music videos. So people wanting to know what the band are about can easily access this information</h4>
+</p>
 
 <h3>Socials</h3>
-<h4>The band want people to be able to find their social media accounts and follow. These are included in the footer of each page of the site to make that easier and have them all in the one place.</h4>
+<p>The band want people to be able to find their social media accounts and follow. These are included in the footer of each page of the site to make that easier and have them all in the one place.</p>
 
-Features Left to Implement
+<h2>Features Left to Implement</h2>
 <ul>
 <li>Add CSS navigation and effects to images in gallery to allow them to pop up when clicked on along with scrolling</li>
 <li>Finish a functioning contact form that collects data</li>
@@ -63,30 +69,44 @@ Features Left to Implement
 <li>Direct ticketing portal so fans can buy their tickets on the actual bands website as well as 3rd party sources. </li>
 </ul>
 
-Technologies Used
+<h2>Technologies Used</h2>
 <h3>HTML-</h3>
-<h4>Basic necessity for a web site</h4>
+<p>Basic necessity for a web site</p>
 
 <h3>CSS</h3>
-<h4>Required to style my HTML and images</h4>
+<p>Required to style my HTML and images</p>
 
 <h3>Balsamiq</h3>
-<h4>Used to develop wireframes</h4>
+<p>Used to develop wireframes</p>
 
 <h3>Bootstrap 4</h3>
-<h4>Provided useful components and layout features to create this website. Extremely powerful box grid system for developing websites.</h4>
+<p>Provided useful components and layout features to create this website. Extremely powerful box grid system for developing websites with a responsive design.</p>
 
 <h3>Canva</h3>
-<h4>Used for editing photos and resizing</h4>
+<p>Used for editing photos and resizing</p>
 
 <h3>w3Schools</h3>
-<h4>Amazing library of full web framework components to pull from and assisted with understanding the structure of certain elements.</h4>
+<p>Amazing library of full web framework components to pull from and assisted with understanding the structure of certain elements.</p>
 
-<h3></h3>
+<h3>Git / Github</h3>
+<p>Used for version control and storing and deploying website once complete.</p>
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+<h3>Font Awesome</h3>
+<p>Used this for icons and favicons for the likes of socials</p>
 
-JQuery
+<h3>Animista</h3>
+<p>Used Animista to create some moving visuals with CSS</p>
+
+<h3>Google Fonts</h3>
+<p>Used google fonts to pick appropriate fonts for the band</p>
+
+<h3>Jquery</h3>
+<p>Built in features of bootstrap to allow animations not available with just HTML/CSS. The project uses JQuery to simplify DOM manipulation.</p>
+
+<h3>Codepen.io</h3>
+<p>Viewed some websites for inspiration as to what to build and how to implement them.</p>
+
+
 The project uses JQuery to simplify DOM manipulation.
 
 Testing
