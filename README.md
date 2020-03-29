@@ -255,11 +255,11 @@ Tested each individual webpage on https://validator.w3.org/ when I was nearing t
 There was one such issue regarding obsolete technologies regarding the width of the I-frame on the gallery.html page that has since been fixed. I consulted Stack Overflow for the reason behind this error.
 Results of W3 Validator:
 
- - Home.html: Pass
- - About.html: Pass
- - Gallery.html: Pass
- - Contact.html: Pass
- - Success.html: Pass
+ - Home.html: Pass - https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebigbushman.github.io%2Femily7-MS1%2Findex.html
+ - About.html: Pass - https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebigbushman.github.io%2Femily7-MS1%2Fabout.html
+ - Gallery.html: Pass - https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebigbushman.github.io%2Femily7-MS1%2Fgallery.html
+ - Contact.html: Pass - https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebigbushman.github.io%2Femily7-MS1%2Fcontact.html
+ - Success.html: Pass - https://validator.w3.org/nu/?doc=https%3A%2F%2Fthebigbushman.github.io%2Femily7-MS1%2Fsuccess.html
 
  
 
