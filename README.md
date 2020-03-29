@@ -318,6 +318,11 @@ Displays and resolutions all fine. No user issues and website functioning fine.
 > submitted. Added in required fields on selected content and updated
 > input Id's.
 
+> When I finally deployed the project to github pages, most of my images
+> were broken. I had to evaluate my code and find the error. Even though
+> everything worked fine in gitpod it still would not display. I
+> discovered a path error in some of the images that were sending github
+> to far up the chain to find them. Issue resolved
 
   
 
@@ -325,24 +330,20 @@ Displays and resolutions all fine. No user issues and website functioning fine.
 
   
 
-Deployment
+## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+**
+To deploy the project I followed these steps:
 
+ - From within the main Repo
+   [Here](https://github.com/TheBigBushman/emily7-MS1) I clicked on the
+   settings button on the right hand side.
+ - I then Scrolled down to Github Pages and selected master branch as a
+   source.
+ - This page is now deployed to [here](https://thebigbushman.github.io/emily7-MS1/index.html)
   
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-  
-
-Different values for environment variables (Heroku Config Vars)?
-
-Different configuration files?
-
-Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+ - If i make any new changes to this repo it will automatically update
+   on Github Pages
   
 
 **
