@@ -9,6 +9,9 @@ li a{
     padding-right: 2rem;
     
 }
+.navbar-brand{
+    width: 200px;
+}
 
 .hero-image{
     height: 400px;
@@ -28,10 +31,17 @@ li a{
     left: 10%;
     padding: 20px 0;
 }
+.carousel-caption a{
+    font-size: 15px;
+    
+}
+
+
 /*------------------------------------------------------------------------------- font styles*/
 h1 {
     font-family: "Bungee Shade";
     font-weight: 500;
+    text-align: center;
 }
 .navbar-brand{
     font-family:"Rye";
@@ -44,6 +54,7 @@ h3 {
 font-family:"Rye";
 letter-spacing: 4px;
 font-weight: 500;
+text-align: center;
 }
 
 h4 {
@@ -56,6 +67,12 @@ h5{
 h1.booking-h1 , h5.booking-h5{
     text-align: center;
     margin-top: 10px;
+}
+
+h5.booking-h5{
+    width: 350px;
+    align-content: center;
+    margin: 0 auto;
 }
 
 h1.success-h1 , h5.success-h5{
@@ -71,6 +88,10 @@ h5.success-h5-2{
 }
 h1.about-h1{
 font-size: 80px;
+}
+
+.carousel-slide-3{
+    color: #321515;
 }
 
 /*-------------------------------------------------------------------------------------footer content */
@@ -93,6 +114,7 @@ form.contact-form-main{
 /*-------------------------------------------------------------------------------------Social media Icons*/
 .youtube i {
     color:#c4302b;
+    margin: 0 auto;
     
 }
 
@@ -115,11 +137,28 @@ form.contact-form-main{
     display: inline;
 }
 .footer-icons i {
-    width: 24%
+    width: 70%;
+    font-size: 40px;
+    letter-spacing: 5px;
+    
+
 }
 
+.footer-icons {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    width: 200px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    
+    text-align: center;
+    align-content: center;
+    padding: 0;
+
+}
 /*------------------------------------------------------------------------------------------Footer content*/
-footer{
+footer {
     background-color: #343a40;
     padding-bottom: 20px;
    
@@ -193,6 +232,19 @@ footer .copyright{
 
 h5.venues-date {
     font-family: "Rye";
+    text-align: center;
+    
+}
+
+.venues{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.band-h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -239,7 +291,7 @@ h5.venues-date {
     padding: 20 0;
     
    }
-
+  
    h1.display-2{
        position: relative;
        margin: 0 auto;
@@ -274,6 +326,31 @@ footer .copyright{
     
 }
 }
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) { 
+    
+    .carousel-caption{
+    margin-bottom: 20px;
+    
+} 
+
+    .carousel-caption a{
+    font-size: 23px;
+}
+
+
+h3.venues{
+    font-size: 25px;
+    }
+}
+
+
 
 /*---------------------------------------------------------------------------------------------------------------------------- Animations */
 
