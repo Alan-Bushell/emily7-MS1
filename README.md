@@ -281,16 +281,26 @@ Site tested using internet Explorer, Chrome, Google app, Firefox. Some slight de
 Displays and resolutions all fine. No user issues and website functioning fine.
 
   
-|Scenario|--------------------------------------------------------------------------------------------|Result|
+|Scenario|-----------------------------------------------------------------------------------|Result|
+
 |Link testing from Home page to all page links: About , Tickets , Gallery , Contact, Socials |Pass|
+
 |Link testing from About page to all page links: Home , Tickets , Gallery , Contact, Socials |Pass|
+
 |Link testing from Gallery page to all page links: Home,  About , Tickets , Contact, Socials |Pass|
+
 |Link testing from Contact page to all page links: Home,  About , Tickets , Gallery, Socials |Pass|
+
 |Link testing from Contact page to all page links: Home,  About , Tickets , Gallery, Socials |Pass|
+
 |Mobile capability buttons checked as above|-------------------------------------------------- |Pass|
+
 |Contact form checked on mobile with correct information|--------------------------------- |Pass|
+
 |Contact form checked on mobile with incorrect information|------------------------------- |Pass|
+
 |Tested contact form with correct criteria requirements|--------------------------------------|Pass|
+
 |Tested contact form with incorrect criteria requirements|------------------------------------|Fail|
 
 ## **Bugs**
