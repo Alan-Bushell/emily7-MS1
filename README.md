@@ -182,7 +182,7 @@ Provided useful components and layout features to create this website. Extremely
 
   
 
-*[*Canva](https://www.canva.com/)**
+**[Canva](https://www.canva.com/)**
 
 Used for editing photos and resizing
 
