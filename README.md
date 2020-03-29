@@ -7,7 +7,9 @@
 **This website is to showcase up and coming band emily 7.
 It is a place for their fans to find out about gigs, tickets, check out their gallery and for prospective booking agents to contact them.**
 
-  
+
+[Live site](https://thebigbushman.github.io/emily7-MS1/index.html)
+[Repo](https://github.com/TheBigBushman/emily7-MS1)
   
 
 
